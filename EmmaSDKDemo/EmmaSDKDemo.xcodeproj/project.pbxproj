@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415CCF15170610F900120BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF14170610F900120BC6 /* UIKit.framework */; };
+		415CCF17170610F900120BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF16170610F900120BC6 /* Foundation.framework */; };
+		415CCF19170610F900120BC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF18170610F900120BC6 /* CoreGraphics.framework */; };
+		415CCF1F170610F900120BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF1D170610F900120BC6 /* InfoPlist.strings */; };
+		415CCF21170610F900120BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CCF20170610F900120BC6 /* main.m */; };
+		415CCF25170610F900120BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CCF24170610F900120BC6 /* AppDelegate.m */; };
+		415CCF27170610F900120BC6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF26170610F900120BC6 /* Default.png */; };
+		415CCF29170610F900120BC6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF28170610F900120BC6 /* Default@2x.png */; };
+		415CCF2B170610F900120BC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF2A170610F900120BC6 /* Default-568h@2x.png */; };
+		415CCF33170610FA00120BC6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF32170610FA00120BC6 /* SenTestingKit.framework */; };
+		415CCF34170610FA00120BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF14170610F900120BC6 /* UIKit.framework */; };
+		415CCF35170610FA00120BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF16170610F900120BC6 /* Foundation.framework */; };
+		415CCF3D170610FA00120BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF3B170610FA00120BC6 /* InfoPlist.strings */; };
+		415CCF40170610FA00120BC6 /* EmmaSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */; };
+		415CCF5D17061B1300120BC6 /* libEmmaSDKiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415CCF36170610FA00120BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415CCF09170610F900120BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415CCF10170610F900120BC6;
+			remoteInfo = EmmaSDKDemo;
+		};
+		415CCF5517061ADA00120BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41EB586D16C45D5F005C1805;
+			remoteInfo = EmmaSDK;
+		};
+		415CCF5717061ADA00120BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4129EC4D16C45C71002A3C60;
+			remoteInfo = EmmaSDKiOS;
+		};
+		415CCF5917061ADA00120BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4129EC5E16C45C71002A3C60;
+			remoteInfo = EmmaSDKTests;
+		};
+		415CCF5B17061B0300120BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4129EC4C16C45C71002A3C60;
+			remoteInfo = EmmaSDKiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		415CCF6717061C0900120BC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		415CCF11170610F900120BC6 /* EmmaSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmmaSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415CCF14170610F900120BC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		415CCF16170610F900120BC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		415CCF18170610F900120BC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		415CCF1C170610F900120BC6 /* EmmaSDKDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmmaSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		415CCF1E170610F900120BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415CCF20170610F900120BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		415CCF22170610F900120BC6 /* EmmaSDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmmaSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		415CCF23170610F900120BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		415CCF24170610F900120BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		415CCF26170610F900120BC6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		415CCF28170610F900120BC6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		415CCF2A170610F900120BC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		415CCF31170610FA00120BC6 /* EmmaSDKDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmmaSDKDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415CCF32170610FA00120BC6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		415CCF3A170610FA00120BC6 /* EmmaSDKDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmmaSDKDemoTests-Info.plist"; sourceTree = "<group>"; };
+		415CCF3C170610FA00120BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		415CCF3E170610FA00120BC6 /* EmmaSDKDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmmaSDKDemoTests.h; sourceTree = "<group>"; };
+		415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmmaSDKDemoTests.m; sourceTree = "<group>"; };
+		415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmmaSDK.xcodeproj; path = ../Dependencies/EmmaObjC/EmmaSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415CCF0E170610F900120BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF5D17061B1300120BC6 /* libEmmaSDKiOS.a in Frameworks */,
+				415CCF15170610F900120BC6 /* UIKit.framework in Frameworks */,
+				415CCF17170610F900120BC6 /* Foundation.framework in Frameworks */,
+				415CCF19170610F900120BC6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415CCF2D170610FA00120BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF33170610FA00120BC6 /* SenTestingKit.framework in Frameworks */,
+				415CCF34170610FA00120BC6 /* UIKit.framework in Frameworks */,
+				415CCF35170610FA00120BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415CCF08170610F900120BC6 = {
+			isa = PBXGroup;
+			children = (
+				415CCF1A170610F900120BC6 /* EmmaSDKDemo */,
+				415CCF38170610FA00120BC6 /* EmmaSDKDemoTests */,
+				415CCF13170610F900120BC6 /* Frameworks */,
+				415CCF12170610F900120BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		415CCF12170610F900120BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF11170610F900120BC6 /* EmmaSDKDemo.app */,
+				415CCF31170610FA00120BC6 /* EmmaSDKDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415CCF13170610F900120BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */,
+				415CCF14170610F900120BC6 /* UIKit.framework */,
+				415CCF16170610F900120BC6 /* Foundation.framework */,
+				415CCF18170610F900120BC6 /* CoreGraphics.framework */,
+				415CCF32170610FA00120BC6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415CCF1A170610F900120BC6 /* EmmaSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF23170610F900120BC6 /* AppDelegate.h */,
+				415CCF24170610F900120BC6 /* AppDelegate.m */,
+				415CCF1B170610F900120BC6 /* Supporting Files */,
+			);
+			path = EmmaSDKDemo;
+			sourceTree = "<group>";
+		};
+		415CCF1B170610F900120BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF1C170610F900120BC6 /* EmmaSDKDemo-Info.plist */,
+				415CCF1D170610F900120BC6 /* InfoPlist.strings */,
+				415CCF20170610F900120BC6 /* main.m */,
+				415CCF22170610F900120BC6 /* EmmaSDKDemo-Prefix.pch */,
+				415CCF26170610F900120BC6 /* Default.png */,
+				415CCF28170610F900120BC6 /* Default@2x.png */,
+				415CCF2A170610F900120BC6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415CCF38170610FA00120BC6 /* EmmaSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF3E170610FA00120BC6 /* EmmaSDKDemoTests.h */,
+				415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */,
+				415CCF39170610FA00120BC6 /* Supporting Files */,
+			);
+			path = EmmaSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		415CCF39170610FA00120BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF3A170610FA00120BC6 /* EmmaSDKDemoTests-Info.plist */,
+				415CCF3B170610FA00120BC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		415CCF4A17061AD900120BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415CCF5617061ADA00120BC6 /* EmmaSDK.framework */,
+				415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */,
+				415CCF5A17061ADA00120BC6 /* EmmaSDKTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415CCF10170610F900120BC6 /* EmmaSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415CCF43170610FA00120BC6 /* Build configuration list for PBXNativeTarget "EmmaSDKDemo" */;
+			buildPhases = (
+				415CCF0D170610F900120BC6 /* Sources */,
+				415CCF0E170610F900120BC6 /* Frameworks */,
+				415CCF0F170610F900120BC6 /* Resources */,
+				415CCF6717061C0900120BC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415CCF5C17061B0300120BC6 /* PBXTargetDependency */,
+			);
+			name = EmmaSDKDemo;
+			productName = EmmaSDKDemo;
+			productReference = 415CCF11170610F900120BC6 /* EmmaSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		415CCF30170610FA00120BC6 /* EmmaSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415CCF46170610FA00120BC6 /* Build configuration list for PBXNativeTarget "EmmaSDKDemoTests" */;
+			buildPhases = (
+				415CCF2C170610FA00120BC6 /* Sources */,
+				415CCF2D170610FA00120BC6 /* Frameworks */,
+				415CCF2E170610FA00120BC6 /* Resources */,
+				415CCF2F170610FA00120BC6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415CCF37170610FA00120BC6 /* PBXTargetDependency */,
+			);
+			name = EmmaSDKDemoTests;
+			productName = EmmaSDKDemoTests;
+			productReference = 415CCF31170610FA00120BC6 /* EmmaSDKDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415CCF09170610F900120BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Emma, Inc.";
+			};
+			buildConfigurationList = 415CCF0C170610F900120BC6 /* Build configuration list for PBXProject "EmmaSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 415CCF08170610F900120BC6;
+			productRefGroup = 415CCF12170610F900120BC6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 415CCF4A17061AD900120BC6 /* Products */;
+					ProjectRef = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				415CCF10170610F900120BC6 /* EmmaSDKDemo */,
+				415CCF30170610FA00120BC6 /* EmmaSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		415CCF5617061ADA00120BC6 /* EmmaSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EmmaSDK.framework;
+			remoteRef = 415CCF5517061ADA00120BC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEmmaSDKiOS.a;
+			remoteRef = 415CCF5717061ADA00120BC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		415CCF5A17061ADA00120BC6 /* EmmaSDKTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EmmaSDKTests.octest;
+			remoteRef = 415CCF5917061ADA00120BC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415CCF0F170610F900120BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF1F170610F900120BC6 /* InfoPlist.strings in Resources */,
+				415CCF27170610F900120BC6 /* Default.png in Resources */,
+				415CCF29170610F900120BC6 /* Default@2x.png in Resources */,
+				415CCF2B170610F900120BC6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415CCF2E170610FA00120BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF3D170610FA00120BC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		415CCF2F170610FA00120BC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415CCF0D170610F900120BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF21170610F900120BC6 /* main.m in Sources */,
+				415CCF25170610F900120BC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415CCF2C170610FA00120BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415CCF40170610FA00120BC6 /* EmmaSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		415CCF37170610FA00120BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415CCF10170610F900120BC6 /* EmmaSDKDemo */;
+			targetProxy = 415CCF36170610FA00120BC6 /* PBXContainerItemProxy */;
+		};
+		415CCF5C17061B0300120BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmmaSDKiOS;
+			targetProxy = 415CCF5B17061B0300120BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		415CCF1D170610F900120BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415CCF1E170610F900120BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		415CCF3B170610FA00120BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415CCF3C170610FA00120BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415CCF41170610FA00120BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = include/;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		415CCF42170610FA00120BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = include/;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415CCF44170610FA00120BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "EmmaSDKDemo/EmmaSDKDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		415CCF45170610FA00120BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "EmmaSDKDemo/EmmaSDKDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		415CCF47170610FA00120BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmmaSDKDemo.app/EmmaSDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "EmmaSDKDemoTests/EmmaSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		415CCF48170610FA00120BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmmaSDKDemo.app/EmmaSDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "EmmaSDKDemoTests/EmmaSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415CCF0C170610F900120BC6 /* Build configuration list for PBXProject "EmmaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415CCF41170610FA00120BC6 /* Debug */,
+				415CCF42170610FA00120BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415CCF43170610FA00120BC6 /* Build configuration list for PBXNativeTarget "EmmaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415CCF44170610FA00120BC6 /* Debug */,
+				415CCF45170610FA00120BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415CCF46170610FA00120BC6 /* Build configuration list for PBXNativeTarget "EmmaSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415CCF47170610FA00120BC6 /* Debug */,
+				415CCF48170610FA00120BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415CCF09170610F900120BC6 /* Project object */;
+}
