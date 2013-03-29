@@ -21,7 +21,9 @@
 		415CCF35170610FA00120BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF16170610F900120BC6 /* Foundation.framework */; };
 		415CCF3D170610FA00120BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 415CCF3B170610FA00120BC6 /* InfoPlist.strings */; };
 		415CCF40170610FA00120BC6 /* EmmaSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */; };
-		415CCF5D17061B1300120BC6 /* libEmmaSDKiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */; };
+		415CCF5D17061B1300120BC6 /* libEmmaSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF5817061ADA00120BC6 /* libEmmaSDK.a */; };
+		41970E6117064F4D00C7A67F /* GroupsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970E6017064F4D00C7A67F /* GroupsController.m */; };
+		41970E701706505A00C7A67F /* TableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970E6F1706505A00C7A67F /* TableSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,27 @@
 			remoteGlobalIDString = 4129EC4C16C45C71002A3C60;
 			remoteInfo = EmmaSDKiOS;
 		};
+		41970E77170653E900C7A67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		41970E79170653E900C7A67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		41970E7B170653E900C7A67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +118,11 @@
 		415CCF3E170610FA00120BC6 /* EmmaSDKDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmmaSDKDemoTests.h; sourceTree = "<group>"; };
 		415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmmaSDKDemoTests.m; sourceTree = "<group>"; };
 		415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmmaSDK.xcodeproj; path = ../Dependencies/EmmaObjC/EmmaSDK.xcodeproj; sourceTree = "<group>"; };
+		41970E5F17064F4D00C7A67F /* GroupsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsController.h; sourceTree = "<group>"; };
+		41970E6017064F4D00C7A67F /* GroupsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsController.m; sourceTree = "<group>"; };
+		41970E6E1706505A00C7A67F /* TableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSource.h; sourceTree = "<group>"; };
+		41970E6F1706505A00C7A67F /* TableSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSource.m; sourceTree = "<group>"; };
+		41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../Dependencies/EmmaObjC/Dependencies/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				415CCF5D17061B1300120BC6 /* libEmmaSDKiOS.a in Frameworks */,
+				415CCF5D17061B1300120BC6 /* libEmmaSDK.a in Frameworks */,
 				415CCF15170610F900120BC6 /* UIKit.framework in Frameworks */,
 				415CCF17170610F900120BC6 /* Foundation.framework in Frameworks */,
 				415CCF19170610F900120BC6 /* CoreGraphics.framework in Frameworks */,
@@ -144,6 +172,7 @@
 		415CCF13170610F900120BC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */,
 				415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */,
 				415CCF14170610F900120BC6 /* UIKit.framework */,
 				415CCF16170610F900120BC6 /* Foundation.framework */,
@@ -159,6 +188,10 @@
 				415CCF23170610F900120BC6 /* AppDelegate.h */,
 				415CCF24170610F900120BC6 /* AppDelegate.m */,
 				415CCF1B170610F900120BC6 /* Supporting Files */,
+				41970E5F17064F4D00C7A67F /* GroupsController.h */,
+				41970E6017064F4D00C7A67F /* GroupsController.m */,
+				41970E6E1706505A00C7A67F /* TableSource.h */,
+				41970E6F1706505A00C7A67F /* TableSource.m */,
 			);
 			path = EmmaSDKDemo;
 			sourceTree = "<group>";
@@ -200,8 +233,18 @@
 			isa = PBXGroup;
 			children = (
 				415CCF5617061ADA00120BC6 /* EmmaSDK.framework */,
-				415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */,
+				415CCF5817061ADA00120BC6 /* libEmmaSDK.a */,
 				415CCF5A17061ADA00120BC6 /* EmmaSDKTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41970E72170653E900C7A67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41970E78170653E900C7A67F /* ReactiveCocoa.framework */,
+				41970E7A170653E900C7A67F /* libReactiveCocoa-iOS.a */,
+				41970E7C170653E900C7A67F /* ReactiveCocoaTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,6 +314,10 @@
 					ProductGroup = 415CCF4A17061AD900120BC6 /* Products */;
 					ProjectRef = 415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */;
 				},
+				{
+					ProductGroup = 41970E72170653E900C7A67F /* Products */;
+					ProjectRef = 41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -288,10 +335,10 @@
 			remoteRef = 415CCF5517061ADA00120BC6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		415CCF5817061ADA00120BC6 /* libEmmaSDKiOS.a */ = {
+		415CCF5817061ADA00120BC6 /* libEmmaSDK.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libEmmaSDKiOS.a;
+			path = libEmmaSDK.a;
 			remoteRef = 415CCF5717061ADA00120BC6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -300,6 +347,27 @@
 			fileType = wrapper.cfbundle;
 			path = EmmaSDKTests.octest;
 			remoteRef = 415CCF5917061ADA00120BC6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41970E78170653E900C7A67F /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 41970E77170653E900C7A67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41970E7A170653E900C7A67F /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 41970E79170653E900C7A67F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41970E7C170653E900C7A67F /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 41970E7B170653E900C7A67F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -349,6 +417,8 @@
 			files = (
 				415CCF21170610F900120BC6 /* main.m in Sources */,
 				415CCF25170610F900120BC6 /* AppDelegate.m in Sources */,
+				41970E6117064F4D00C7A67F /* GroupsController.m in Sources */,
+				41970E701706505A00C7A67F /* TableSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
 				INFOPLIST_FILE = "EmmaSDKDemo/EmmaSDKDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmmaSDKDemo/EmmaSDKDemo-Prefix.pch";
 				INFOPLIST_FILE = "EmmaSDKDemo/EmmaSDKDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
