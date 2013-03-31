@@ -6,12 +6,6 @@
 
 @end
 
-@implementation TableSection
-
-@synthesize items, title;
-
-@end
-
 @interface TableSource ()
 
 @property (nonatomic, strong) NSDictionary *titleIndex;
@@ -22,15 +16,29 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    ((TableItem *)((TableSection *)_sections[indexPath.section]).items[indexPath.row]).action(tableView, indexPath);
+    
+    void(^action)() = ((TableItem *)_items[indexPath.row]).action;
+    
+    if (action)
+        action(tableView, indexPath);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return (((TableSection *)_sections[section]).items).count;
+    return _items.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return ((TableItem *)((TableSection *)_sections[indexPath.section]).items[indexPath.row]).cell(tableView, indexPath);
+    return ((TableItem *)_items[indexPath.row]).cell(tableView, indexPath);
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    TableItem *removedItem = _items[indexPath.row];
+    
+    NSMutableArray *newItems = [_items mutableCopy];
+    [newItems removeObject:removedItem];
+    _items = [newItems copy];
+    [tableView deleteRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationRight];
+    removedItem.deleted();
 }
 
 @end

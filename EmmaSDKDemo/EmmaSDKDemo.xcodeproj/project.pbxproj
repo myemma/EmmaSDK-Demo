@@ -24,6 +24,8 @@
 		415CCF5D17061B1300120BC6 /* libEmmaSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 415CCF5817061ADA00120BC6 /* libEmmaSDK.a */; };
 		41970E6117064F4D00C7A67F /* GroupsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970E6017064F4D00C7A67F /* GroupsController.m */; };
 		41970E701706505A00C7A67F /* TableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970E6F1706505A00C7A67F /* TableSource.m */; };
+		41970EA61707C93900C7A67F /* GroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970EA51707C93900C7A67F /* GroupController.m */; };
+		41970EB01707CBEE00C7A67F /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41970EAF1707CBEE00C7A67F /* TextFieldCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,10 @@
 		41970E6E1706505A00C7A67F /* TableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSource.h; sourceTree = "<group>"; };
 		41970E6F1706505A00C7A67F /* TableSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSource.m; sourceTree = "<group>"; };
 		41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../Dependencies/EmmaObjC/Dependencies/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		41970EA41707C93900C7A67F /* GroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupController.h; sourceTree = "<group>"; };
+		41970EA51707C93900C7A67F /* GroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupController.m; sourceTree = "<group>"; };
+		41970EAE1707CBEE00C7A67F /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		41970EAF1707CBEE00C7A67F /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,13 +191,17 @@
 		415CCF1A170610F900120BC6 /* EmmaSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				41970EAE1707CBEE00C7A67F /* TextFieldCell.h */,
+				41970EAF1707CBEE00C7A67F /* TextFieldCell.m */,
 				415CCF23170610F900120BC6 /* AppDelegate.h */,
 				415CCF24170610F900120BC6 /* AppDelegate.m */,
-				415CCF1B170610F900120BC6 /* Supporting Files */,
 				41970E5F17064F4D00C7A67F /* GroupsController.h */,
 				41970E6017064F4D00C7A67F /* GroupsController.m */,
+				41970EA41707C93900C7A67F /* GroupController.h */,
+				41970EA51707C93900C7A67F /* GroupController.m */,
 				41970E6E1706505A00C7A67F /* TableSource.h */,
 				41970E6F1706505A00C7A67F /* TableSource.m */,
+				415CCF1B170610F900120BC6 /* Supporting Files */,
 			);
 			path = EmmaSDKDemo;
 			sourceTree = "<group>";
@@ -419,6 +429,8 @@
 				415CCF25170610F900120BC6 /* AppDelegate.m in Sources */,
 				41970E6117064F4D00C7A67F /* GroupsController.m in Sources */,
 				41970E701706505A00C7A67F /* TableSource.m in Sources */,
+				41970EA61707C93900C7A67F /* GroupController.m in Sources */,
+				41970EB01707CBEE00C7A67F /* TextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
