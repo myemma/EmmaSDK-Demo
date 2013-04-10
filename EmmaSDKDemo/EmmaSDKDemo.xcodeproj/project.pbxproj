@@ -119,12 +119,12 @@
 		415CCF3C170610FA00120BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		415CCF3E170610FA00120BC6 /* EmmaSDKDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmmaSDKDemoTests.h; sourceTree = "<group>"; };
 		415CCF3F170610FA00120BC6 /* EmmaSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmmaSDKDemoTests.m; sourceTree = "<group>"; };
-		415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmmaSDK.xcodeproj; path = ../Dependencies/EmmaObjC/EmmaSDK.xcodeproj; sourceTree = "<group>"; };
+		415CCF4917061AD900120BC6 /* EmmaSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmmaSDK.xcodeproj; path = ../Dependencies/EmmaSDK/EmmaSDK.xcodeproj; sourceTree = "<group>"; };
 		41970E5F17064F4D00C7A67F /* GroupsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsController.h; sourceTree = "<group>"; };
 		41970E6017064F4D00C7A67F /* GroupsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsController.m; sourceTree = "<group>"; };
 		41970E6E1706505A00C7A67F /* TableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSource.h; sourceTree = "<group>"; };
 		41970E6F1706505A00C7A67F /* TableSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSource.m; sourceTree = "<group>"; };
-		41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../Dependencies/EmmaObjC/Dependencies/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		41970E71170653E900C7A67F /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../Dependencies/EmmaSDK/Dependencies/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
 		41970EA41707C93900C7A67F /* GroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupController.h; sourceTree = "<group>"; };
 		41970EA51707C93900C7A67F /* GroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupController.m; sourceTree = "<group>"; };
 		41970EAE1707CBEE00C7A67F /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
